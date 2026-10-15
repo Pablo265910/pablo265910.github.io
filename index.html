@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Página · GitHub Pages</title>
+  <meta name="description" content="Página básica publicada con GitHub Pages.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <h1>¡Hola, mundo! 👋</h1>
+    <p>Esta es mi primera página publicada con <strong>GitHub Pages</strong>.</p>
+    <a class="boton" href="https://pages.github.com/" target="_blank" rel="noopener">Saber más</a>
+  </header>
+
+  <main>
+    <section>
+      <h2>Sobre mí</h2>
+      <p>
+        Aquí puedes escribir una breve descripción. Puedes editar este texto
+        directamente en el archivo <code>index.html</code>.
+      </p>
+    </section>
+
+    <section>
+      <h2>Enlaces</h2>
+      <ul>
+        <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://docs.github.com/es/pages" target="_blank" rel="noopener">Documentación de GitHub Pages</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="anio"></span> Mi Página</p>
+  </footer>
+
+  <script>
+    // Muestra el año actual automáticamente
+    document.getElementById('anio').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
